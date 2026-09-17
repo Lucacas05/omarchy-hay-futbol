@@ -1,14 +1,10 @@
 # ¿Hay fútbol?
 
-## Why this exists
-
-This widget is mainly useful in Spain. During LALIGA broadcasts, Spanish internet providers apply court-authorized blocks to IP addresses linked to unauthorized streams. The mechanism was requested by LALIGA and Telefónica Audiovisual Digital and authorized by [Barcelona Commercial Court No. 6](https://www.poderjudicial.es/search/AN/openDocument/766326fb999ba14aa0a8778d75e36f0d/20250331); it is not a law written by LALIGA.
-
-The problem is that Cloudflare and other infrastructure providers use the same IP address for many unrelated websites. Blocking one shared address can therefore make legitimate services unreachable in Spain. [OONI measured](https://ooni.org/post/2026-laliga-collateral/) match-time events where blocking only 4–20 IP addresses affected more than 400,000 domains. This plugin puts the current status from [hayahora.futbol](https://hayahora.futbol/) in the Omarchy bar, so a strange outage during a match is easier to recognize.
+This plugin is mainly useful in Spain. During LALIGA broadcasts, Spanish internet providers apply court-authorized blocks to IP addresses linked to unauthorized streams. 
 
 Click the ball to see the current answer and the number of blocked IPs. The popup also links back to the source. Middle-clicking refreshes the result immediately.
 
-The widget checks `https://hayahora.futbol/estado/blocked-any.txt` once every five minutes. It uses this small text endpoint instead of downloading the full data set.
+The plugin checks `https://hayahora.futbol/estado/blocked-any.txt` once every five minutes. It uses this small text endpoint instead of downloading the full data set.
 
 ## Install
 
