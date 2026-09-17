@@ -50,6 +50,8 @@ The status comes from the public block list maintained by [hayahora.futbol](http
 
 The site and its data belong to their respective maintainers. This repository is not affiliated with hayahora.futbol, LaLiga, or Omarchy.
 
+The factual background and source notes behind this explanation are collected in [Spain football IP blocking: research notes](docs/research/spain-football-ip-blocking.md).
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
