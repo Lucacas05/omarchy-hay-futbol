@@ -32,7 +32,7 @@ When the request fails, the popup says `SIN CONEXIÓN` and keeps the last succes
 - `curl`
 - An internet connection to `hayahora.futbol`
 
-The plugin runs `curl` as your user. It does not need `sudo`, write outside its own Omarchy configuration, or collect analytics.
+The plugin runs `curl` as your user. It does not write outside its own Omarchy configuration or collect analytics.
 
 ## Remove
 
